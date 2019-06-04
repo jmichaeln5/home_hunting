@@ -4,4 +4,8 @@ class PagesController < ApplicationController
 
   def dash
   end
+
+  def about
+
+  end
 end
