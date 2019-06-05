@@ -5,10 +5,8 @@
   <%= @apartment.address %>
 </p>
 
-<p>
-  <strong>Link:</strong>
-  <%= @apartment.link %>
-</p>
+<strong> Link: </strong> <a href="<%= @apartment.link %>" target="_blank"> <%= @apartment.link[8..40] %>......</a>
+
 
 <p>
   <strong>Angel rating:</strong>
